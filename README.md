@@ -1,6 +1,6 @@
 # Introduction
 
-Codebase for the paper [**Transformer Embeddings of Irregularly Spaced Events and Their Participants**]().
+Codebase for the paper [**Transformer Embeddings of Irregularly Spaced Events and Their Participants**](https://arxiv.org/abs/2201.00044).
 
 This codebase contains two packages:
 1. `anhp`: Attentive-Neural Hawkes Process (A-NHP)
@@ -15,7 +15,7 @@ If you use this code as part of any published research, please acknowledge the f
 @article{yang-2021-transformer,
   author =      {Chenghao Yang and Hongyuan Mei and Jason Eisner},
   title =       {Transformer Embeddings of Irregularly Spaced Events and Their Participants},
-  journal =     {arXiv preprint arxiv:2112.xxxxx},
+  journal =     {arXiv preprint arxiv:2201.00044},
   year =        {2021}
 }
 ```
