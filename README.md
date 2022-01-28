@@ -7,11 +7,10 @@ Author: Chenghao Yang (yangalan1996@gmail.com)
 This codebase contains several packages:
 1. `anhp`: Attentive-Neural Hawkes Process (A-NHP)
 2. `andtt`: Attentive-Neural Datalog Through Time (A-NDTT). 
-3. `thp`: Our bug-fixed version of [Transformer Hawkes Process (THP)](https://arxiv.org/abs/2002.09291).
-4. `sahp`: Our bug-fixed version of [Self-Attentive Hawkes Process (SAHP)](https://arxiv.org/abs/1907.07561).
+3. `thp`: Our corrected version of [Transformer Hawkes Process (THP)](https://arxiv.org/abs/2002.09291).
+4. `sahp`: Our corrected version of [Self-Attentive Hawkes Process (SAHP)](https://arxiv.org/abs/1907.07561).
 
-For `thp` and `sahp`, we have contacted the authors for the THP and SAHP papers and got their approval and confirmation for the bug we found and our fix.
-
+For `thp` and `sahp`, our code includes certain corrections that have been discussed with and agreed by the authors of those papers.
 
 ## Reference
 If you use this code as part of any published research, please acknowledge the following paper (it encourages researchers who publish their code!):
