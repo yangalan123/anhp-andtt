@@ -2,21 +2,26 @@
 
 Codebase for the paper [**Transformer Embeddings of Irregularly Spaced Events and Their Participants**](https://arxiv.org/abs/2201.00044).
 
-This codebase contains two packages:
+Author: Chenghao Yang (yangalan1996@gmail.com)
+
+This codebase contains several packages:
 1. `anhp`: Attentive-Neural Hawkes Process (A-NHP)
 2. `andtt`: Attentive-Neural Datalog Through Time (A-NDTT). 
+3. `thp`: Our bug-fixed version of [Transformer Hawkes Process (THP)](https://arxiv.org/abs/2002.09291).
+4. `sahp`: Our bug-fixed version of [Self-Attentive Hawkes Process (SAHP)](https://arxiv.org/abs/1907.07561).
 
-Author: Chenghao Yang (yangalan1996@gmail.com)
+For `thp` and `sahp`, we have contacted the authors for the THP and SAHP papers and got their approval and confirmation for the bug we found and our fix.
+
 
 ## Reference
 If you use this code as part of any published research, please acknowledge the following paper (it encourages researchers who publish their code!):
 
 ```
-@article{yang-2021-transformer,
+@inproceedings{yang-2021-transformer,
   author =      {Chenghao Yang and Hongyuan Mei and Jason Eisner},
   title =       {Transformer Embeddings of Irregularly Spaced Events and Their Participants},
-  journal =     {arXiv preprint arxiv:2201.00044},
-  year =        {2021}
+  booktitle =     {International Conference on Learning Representations},
+  year =        {2022}
 }
 ```
 
