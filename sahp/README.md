@@ -9,4 +9,3 @@ We have discussed with the first author of the SAHP paper, Qiang Zhang for the c
    For evaluation purposes (computing loglik, RMSE, Accuracy), please use `sahp_testing` sub-package, which will be introduced below.
 
 2. For testing and synthetic data drawing, as the SAHP authors do not provide thinning algorithm implementation, for a fair comparison, we create a separate sub-package `sahp_testing` to do that.
-   This sub-package is still under construction and will be released soon.
