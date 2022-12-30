@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from transformer.Models import get_non_pad_mask
+from thp.thp_training.transformer.Models import get_non_pad_mask
 
 
 def softplus(x, beta):

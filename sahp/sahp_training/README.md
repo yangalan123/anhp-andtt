@@ -21,6 +21,9 @@ The Python version should be at least 3.5 and the torch version can be 0.4.1
 
 To run the model: python main_func.py
 
+> Chenghao: To know more about how to run SAHP training, you can run `python main_func.py --help`.  
+To see the full difference we made for correction, you can use `git diff`. 
+
 ## Citation
 ```
 @article{zhang2019self,

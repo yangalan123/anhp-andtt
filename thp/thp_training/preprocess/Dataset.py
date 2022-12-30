@@ -2,7 +2,7 @@ import numpy as np
 import torch
 import torch.utils.data
 
-from transformer import Constants
+from thp.thp_training.transformer import Constants
 
 
 class EventData(torch.utils.data.Dataset):

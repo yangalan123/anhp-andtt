@@ -8,11 +8,11 @@ import torch.optim as optim
 import os
 from shutil import copyfile
 
-import transformer.Constants as Constants
+import thp.thp_training.transformer.Constants as Constants
 import Utils
 
-from preprocess.Dataset import get_dataloader
-from transformer.Models import Transformer
+from thp.thp_training.preprocess.Dataset import get_dataloader
+from thp.thp_training.transformer.Models import Transformer
 from tqdm import tqdm
 
 

@@ -4,8 +4,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-import transformer.Constants as Constants
-from transformer.Layers import EncoderLayer
+import thp.thp_training.transformer.Constants as Constants
+from thp.thp_training.transformer.Layers import EncoderLayer
 
 
 def get_non_pad_mask(seq):
