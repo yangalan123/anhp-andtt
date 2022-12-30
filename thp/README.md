@@ -9,4 +9,4 @@ Please note that the RMSE and Accuracy stuffs in the training log is not reliabl
 For evaluation purposes (computing loglik, RMSE, Accuracy), please use `thp_testing` sub-package, which will be introduced below.
 
 2. For testing and synthetic data drawing, as the THP authors do not provide thinning algorithm implementation, for a fair comparison, we create a separate sub-package `thp_testing` to do that. 
-This sub-package is still under construction and will be released soon.
+This sub-package is now released.
