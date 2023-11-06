@@ -11,8 +11,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-from snhp.io.log import LogWriter, LogReader
-from snhp.eval.sigtest import Bootstrapping
+from anhp.utils.log import LogWriter, LogReader
+from anhp.eval.sigtest import Bootstrapping
 from thp.thp_testing.esm.manager import Manager
 
 import argparse

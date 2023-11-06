@@ -21,8 +21,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-from snhp.io.log import LogWriter, LogReader
-# from snhp.esm.trainer import Manager, Trainer
+from anhp.utils.log import LogWriter, LogReader
+# from anhp.esm.trainer import Manager, Trainer
 from andtt.esm.trainer import Manager, Trainer
 
 import argparse

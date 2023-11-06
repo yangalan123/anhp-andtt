@@ -15,7 +15,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 
 from thp.thp_testing.esm.generator import Generator
-from snhp.io.log import LogReader
+from anhp.utils.log import LogReader
 # from shutil import copytree
 from distutils.dir_util import copy_tree as copytree
 

@@ -1,9 +1,9 @@
 from torch import nn
 import torch
 import numpy as np
-from snhp.neural.aggr import Aggregation
+from anhp.neural.aggr import Aggregation
 
-# [Chenghao] : why we do not inherit from snhp.neural.aggr.Aggregation?
+# [Chenghao] : why we do not inherit from anhp.neural.aggr.Aggregation?
 # well, that is because AttentionAggregation is doing quite different things
 # and we do not want to have a complex inheritance link
 class ScaledDotAttention(nn.Module):

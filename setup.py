@@ -4,5 +4,5 @@ setup(
     name="anhp",
     version="0.1",
     packages=find_packages(),
-    install_requires=['torch', 'numpy', 'matplotlib', 'tqdm', "sklearn"]
+    install_requires=['numpy', 'matplotlib', 'tqdm', "sklearn"]
 )

@@ -24,10 +24,9 @@ import torch.optim as optim
 NOTE
 need to carefully check if EventSampler needs to be modified in any way
 """
-from snhp.esm.data import DataLoader
-from snhp.esm.sampler import DownSampler
-from snhp.esm.thinning import EventSampler
-# from snhp.logic.neuraldatalog import NeuralDatalog as Datalog
+from anhp.data.NHPDataset import createDataLoader
+from anhp.esm.thinning import EventSampler
+# from anhp.logic.neuraldatalog import NeuralDatalog as Datalog
 
 """
 NOTE
@@ -97,7 +96,7 @@ class Manager(object):
 
     def load_data(self, data_splits): 
         print(f"load data with split specs : {data_splits}")
-        self.data = DataLoader()
+        self.data = createDataLoader()
         self.data.load_data(self.args.PathDomain, data_splits)
 
     def save_params(self): 

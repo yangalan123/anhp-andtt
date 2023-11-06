@@ -22,13 +22,13 @@ import torch.optim as optim
 
 from dsl.base import DomainBase as Domain
 
-from snhp.models.cells import CTLSTMCell
-from snhp.models.event import Event
-from snhp.models.partition import NodePartition
-from snhp.models.manager import Manager
-from snhp.models.sampler import Sampler 
+from anhp.models.cells import CTLSTMCell
+from anhp.models.event import Event
+from anhp.models.partition import NodePartition
+from anhp.models.manager import Manager
+from anhp.models.sampler import Sampler 
 
-from snhp.functions.utils import getAbsPath
+from anhp.functions.utils import getAbsPath
 
 import argparse
 __author__ = 'Hongyuan Mei'

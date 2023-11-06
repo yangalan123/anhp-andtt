@@ -1,4 +1,4 @@
-from snhp.io.log import LogWriter
+from anhp.utils.log import LogWriter
 import pickle
 import os
 import torch

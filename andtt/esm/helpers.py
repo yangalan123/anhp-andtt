@@ -15,7 +15,7 @@ import torch
 from andtt.neural.cell import TransformerCell
 
 # from tqdm import tqdm
-# from snhp.neural.gate import CTLSTMGate
+# from anhp.neural.gate import CTLSTMGate
 
 """
 NOTE : make sure that the output of these functions do NOT have computation graph attached
@@ -35,7 +35,7 @@ we define new method, which may or may not call old method
 (1) code is fully reused
 (2) it is alway easy to decouple them and modify the new functions in the future
 E.g., 
-from snhp.esm.helpers import get_subseq as get_subseq_old
+from anhp.esm.helpers import get_subseq as get_subseq_old
 def get_subseq(data, split, seq_id): 
     return get_subseq_old(data, split, seq_id)
 OR

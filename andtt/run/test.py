@@ -19,7 +19,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 
 from andtt.esm.tester import Tester
-from snhp.io.log import LogReader
+from anhp.utils.log import LogReader
 
 import argparse
 __author__ = 'Hongyuan Mei'

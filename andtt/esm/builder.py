@@ -18,7 +18,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-from snhp.io.log import LogWriter
+from anhp.utils.log import LogWriter
 from andtt.esm.manager import Manager
 
 import argparse

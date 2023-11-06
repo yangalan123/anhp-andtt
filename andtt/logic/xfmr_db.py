@@ -1,4 +1,4 @@
-from snhp.logic.database import DatabaseFast
+from andtt.logic import DatabaseFast
 
 class XMFRDatabaseFast(DatabaseFast):
 
