@@ -16,8 +16,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-from snhp.io.log import LogReader
-from snhp.eval.sigtest import Bootstrapping
+from ndtt.io.log import LogReader
+from ndtt.eval.sigtest import Bootstrapping
 
 import argparse
 __author__ = 'Chenghao Yang, Hongyuan Mei'

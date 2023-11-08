@@ -1,10 +1,10 @@
 import numpy as np
 import time
 import torch
-from snhp.logic.neuraldatalog import DatalogPlus
-from snhp.logic.neuraldatalog import NeuralDatalog
-from snhp.neural.aggr import Aggregation
-from snhp.neural.linear import LinearZero
+from ndtt.logic.neuraldatalog import DatalogPlus
+from ndtt.logic.neuraldatalog import NeuralDatalog
+from ndtt.neural.aggr import Aggregation
+from ndtt.neural.linear import LinearZero
 from torch.nn import Tanh, Softplus, Linear, ModuleList
 
 from andtt.logic.xfmr_db import XMFRDatabaseFast as Database

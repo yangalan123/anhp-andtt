@@ -10,7 +10,7 @@ import random
 from models.sahp import SAHP
 from utils import atten_optimizer
 from utils import util
-from snhp.eval.sigtest import Bootstrapping
+from ndtt.eval.sigtest import Bootstrapping
 import os
 import random
 from tqdm import tqdm

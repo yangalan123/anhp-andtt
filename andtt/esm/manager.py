@@ -24,10 +24,10 @@ import torch.optim as optim
 NOTE
 need to carefully check if EventSampler needs to be modified in any way
 """
-from snhp.esm.data import DataLoader
-from snhp.esm.sampler import DownSampler
-from snhp.esm.thinning import EventSampler
-# from snhp.logic.neuraldatalog import NeuralDatalog as Datalog
+from ndtt.esm.data import DataLoader
+from ndtt.esm.sampler import DownSampler
+from ndtt.esm.thinning import EventSampler
+# from ndtt.logic.neuraldatalog import NeuralDatalog as Datalog
 
 """
 NOTE
@@ -154,7 +154,7 @@ class Manager(object):
     """
     """
     NOTE 
-    these methods are identical to those in snhp.esm.manager 
+    these methods are identical to those in ndtt.esm.manager 
     so are other methods in this class 
     why not inherent that class?
     """

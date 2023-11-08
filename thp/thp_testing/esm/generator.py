@@ -1,4 +1,4 @@
-from snhp.io.log import LogWriter
+from ndtt.io.log import LogWriter
 import pickle
 import os
 import torch

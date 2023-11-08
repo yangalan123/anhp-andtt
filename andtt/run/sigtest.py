@@ -13,10 +13,10 @@ import os
 import datetime
 from itertools import chain
 
-from snhp.eval.sigtest import Bootstrapping, PairPerm
-from snhp.eval.draw import Drawer
+from ndtt.eval.sigtest import Bootstrapping, PairPerm
+from ndtt.eval.draw import Drawer
 
-from snhp.functions.utils import getAbsPath
+from ndtt.functions.utils import getAbsPath
 
 import argparse
 __author__ = 'Hongyuan Mei'

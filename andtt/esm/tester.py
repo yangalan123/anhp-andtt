@@ -18,10 +18,10 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-from snhp.io.log import LogWriter, LogReader
-# from snhp.esm.manager import Manager
+from ndtt.io.log import LogWriter, LogReader
+# from ndtt.esm.manager import Manager
 from andtt.esm.manager import Manager
-from snhp.eval.sigtest import Bootstrapping
+from ndtt.eval.sigtest import Bootstrapping
 
 import argparse
 __author__ = 'Hongyuan Mei, Chenghao Yang'

@@ -15,14 +15,14 @@ import torch
 from andtt.neural.cell import TransformerCell
 
 # from tqdm import tqdm
-# from snhp.neural.gate import CTLSTMGate
+# from ndtt.neural.gate import CTLSTMGate
 
 """
 NOTE : make sure that the output of these functions do NOT have computation graph attached
 """
 """
 NOTE 
-many methods here are almost identical to those in snhp.esm.helpers
+many methods here are almost identical to those in ndtt.esm.helpers
 we don't achieve 100% code reuse for the sake of future-edit flexibility
 i.e., we may modify those functions in the future, 
 so decoupling them at the beginning might be a good design, 
@@ -33,13 +33,13 @@ NOTE
 AHA! here might be a better way!
 we define new method, which may or may not call old method 
 (1) code is fully reused
-(2) it is alway easy to decouple them and modify the new functions in the future
+(2) it is always easy to decouple them and modify the new functions in the future
 E.g., 
-from snhp.esm.helpers import get_subseq as get_subseq_old
+from ndtt.esm.helpers import get_subseq as get_subseq_old
 def get_subseq(data, split, seq_id): 
     return get_subseq_old(data, split, seq_id)
 OR
-import snhp.esm.helpers as helpers_old
+import ndtt.esm.helpers as helpers_old
 def get_subseq(data, split, seq):
     return helpers_old.get_subseq(data, split, seq_id)
 """

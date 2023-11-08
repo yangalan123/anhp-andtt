@@ -20,8 +20,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-from snhp.io.log import LogWriter
-# from snhp.esm.manager import Manager
+from ndtt.io.log import LogWriter
+# from ndtt.esm.manager import Manager
 from andtt.esm.manager import Manager
 
 import argparse
