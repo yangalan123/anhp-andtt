@@ -1,5 +1,5 @@
-# Maintainance Status: Arhical Mode 
-If you are seeking more up-to-date efficient implementations of ANHP, THP, and SAHP, I recommend checking out [EasyTPP](https://github.com/ant-research/EasyTemporalPointProcess). They also provide better community support for your TPP usage. This repository is currently maintained under archival mode. 
+# Maintainance Status: Arhical Mode (2024)
+If you are seeking more up-to-date efficient implementations of ANHP, THP, and SAHP, I recommend checking out [EasyTPP](https://github.com/ant-research/EasyTemporalPointProcess). They also provide better community support for your TPP usage. This repository is currently under archival (Read-Only) mode. 
 
 # Introduction
 
