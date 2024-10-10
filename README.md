@@ -1,3 +1,6 @@
+# Maintainance Status: Arhical Mode 
+If you are seeking more up-to-date efficient implementations of ANHP, THP, and SAHP, I recommend checking out [EasyTPP](https://github.com/ant-research/EasyTemporalPointProcess). They also provide better community support for your TPP usage. This repository is currently maintained under archival mode. 
+
 # Introduction
 
 Codebase for the paper [**Transformer Embeddings of Irregularly Spaced Events and Their Participants**](https://arxiv.org/abs/2201.00044).
